@@ -657,4 +657,17 @@
   .method__grid { grid-template-columns: 1fr; }
   .term-phases  { grid-template-columns: 1fr; }
   .term-phase::after { display: none !important; }
+  .page-hero { padding: 56px 0; }
+  .method, .term-structure, .membership, .closing { padding: 5rem 0; }
+  .standards { padding: 4rem 0; }
+  .intro-strip { padding: 3rem 0; }
+}
+
+@media (max-width: 480px) {
+  .page-hero { padding: 40px 0; }
+  .page-hero__title { font-size: 2.6rem; }
+  .page-hero__actions { flex-direction: column; align-items: flex-start; }
+  .method, .term-structure, .membership, .closing { padding: 3.5rem 0; }
+  .standards { padding: 3rem 0; }
+  .intro-strip { padding: 2rem 0; }
 }

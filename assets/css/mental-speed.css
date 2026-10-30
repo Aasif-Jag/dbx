@@ -726,8 +726,18 @@
   .ms-method__grid   { grid-template-columns: 1fr; }
   .ms-levels__track  { grid-template-columns: 1fr 1fr; }
   .ms-connect__chain { grid-template-columns: 1fr; }
+  .page-hero { padding: 56px 0; }
+  .ms-dimensions, .ms-method, .ms-levels, .ms-connect, .closing { padding: 5rem 0; }
+  .ms-quote { padding: 4rem 0; }
+  .intro-strip { padding: 3rem 0; }
 }
 
 @media (max-width: 480px) {
   .ms-levels__track { grid-template-columns: 1fr; }
+  .page-hero { padding: 40px 0; }
+  .page-hero__title { font-size: 2.6rem; }
+  .page-hero__actions { flex-direction: column; align-items: flex-start; }
+  .ms-dimensions, .ms-method, .ms-levels, .ms-connect, .closing { padding: 3.5rem 0; }
+  .ms-quote { padding: 3rem 0; }
+  .intro-strip { padding: 2rem 0; }
 }
